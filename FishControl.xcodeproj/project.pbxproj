@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5549951D0A5D1D24C0D119CC /* libPods-FishControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CBF3F1C79BC23A8CADF726 /* libPods-FishControl.a */; };
 		8203A973249E390B00913686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203A972249E390B00913686 /* AppDelegate.swift */; };
 		8203A975249E390B00913686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203A974249E390B00913686 /* SceneDelegate.swift */; };
 		8203A977249E390B00913686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8203A976249E390B00913686 /* ViewController.swift */; };
 		8203A97A249E390C00913686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8203A978249E390C00913686 /* Main.storyboard */; };
 		8203A97C249E394C00913686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8203A97B249E394C00913686 /* Assets.xcassets */; };
-		8203A97F249E394C00913686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8203A97D249E394C00913686 /* LaunchScreen.storyboard */; };
+		82DF0BA024A0E960008D60D1 /* yellowHouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DF0B9F24A0E95E008D60D1 /* yellowHouse.jpg */; };
+		82DF0BA224A0E99F008D60D1 /* lakeOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DF0BA124A0E99E008D60D1 /* lakeOne.jpg */; };
+		82DF0BA424A0E9A8008D60D1 /* lakeTwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DF0BA324A0E9A8008D60D1 /* lakeTwo.jpg */; };
+		82DF0BA624A0EB72008D60D1 /* fishControl.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DF0BA524A0EB72008D60D1 /* fishControl.png */; };
+		82DF0BA824A17F77008D60D1 /* ClientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF0BA724A17F77008D60D1 /* ClientsViewController.swift */; };
+		82DF0BAA24A18AD0008D60D1 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF0BA924A18AD0008D60D1 /* ExpensesViewController.swift */; };
+		82DF0BAC24A18B24008D60D1 /* redHouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DF0BAB24A18B24008D60D1 /* redHouse.jpg */; };
+		82DF0BAE24A193C4008D60D1 /* LakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF0BAD24A193C4008D60D1 /* LakeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C46D1E8C663AD35692040BD /* Pods-FishControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishControl.release.xcconfig"; path = "Target Support Files/Pods-FishControl/Pods-FishControl.release.xcconfig"; sourceTree = "<group>"; };
 		8203A96F249E390B00913686 /* FishControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8203A972249E390B00913686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8203A974249E390B00913686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8203A976249E390B00913686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8203A979249E390C00913686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8203A97B249E394C00913686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8203A97E249E394C00913686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8203A980249E394C00913686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DF0B9F24A0E95E008D60D1 /* yellowHouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowHouse.jpg; sourceTree = "<group>"; };
+		82DF0BA124A0E99E008D60D1 /* lakeOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakeOne.jpg; sourceTree = "<group>"; };
+		82DF0BA324A0E9A8008D60D1 /* lakeTwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakeTwo.jpg; sourceTree = "<group>"; };
+		82DF0BA524A0EB72008D60D1 /* fishControl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fishControl.png; sourceTree = "<group>"; };
+		82DF0BA724A17F77008D60D1 /* ClientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViewController.swift; sourceTree = "<group>"; };
+		82DF0BA924A18AD0008D60D1 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		82DF0BAB24A18B24008D60D1 /* redHouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redHouse.jpg; sourceTree = "<group>"; };
+		82DF0BAD24A193C4008D60D1 /* LakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakeViewController.swift; sourceTree = "<group>"; };
+		A8868855040ACF170617709E /* Pods-FishControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishControl.debug.xcconfig"; path = "Target Support Files/Pods-FishControl/Pods-FishControl.debug.xcconfig"; sourceTree = "<group>"; };
+		F1CBF3F1C79BC23A8CADF726 /* libPods-FishControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FishControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5549951D0A5D1D24C0D119CC /* libPods-FishControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A901C600F7EEF936EF5125F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8868855040ACF170617709E /* Pods-FishControl.debug.xcconfig */,
+				7C46D1E8C663AD35692040BD /* Pods-FishControl.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8203A966249E390A00913686 = {
 			isa = PBXGroup;
 			children = (
 				8203A971249E390B00913686 /* FishControl */,
 				8203A970249E390B00913686 /* Products */,
+				4A901C600F7EEF936EF5125F /* Pods */,
+				9855D8792538F2ED5B62203F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,28 @@
 			children = (
 				8203A972249E390B00913686 /* AppDelegate.swift */,
 				8203A974249E390B00913686 /* SceneDelegate.swift */,
+				82DF0BAD24A193C4008D60D1 /* LakeViewController.swift */,
 				8203A976249E390B00913686 /* ViewController.swift */,
+				82DF0BA124A0E99E008D60D1 /* lakeOne.jpg */,
+				82DF0BA324A0E9A8008D60D1 /* lakeTwo.jpg */,
+				82DF0B9F24A0E95E008D60D1 /* yellowHouse.jpg */,
+				82DF0BA524A0EB72008D60D1 /* fishControl.png */,
+				82DF0BAB24A18B24008D60D1 /* redHouse.jpg */,
 				8203A978249E390C00913686 /* Main.storyboard */,
 				8203A97B249E394C00913686 /* Assets.xcassets */,
-				8203A97D249E394C00913686 /* LaunchScreen.storyboard */,
 				8203A980249E394C00913686 /* Info.plist */,
+				82DF0BA724A17F77008D60D1 /* ClientsViewController.swift */,
+				82DF0BA924A18AD0008D60D1 /* ExpensesViewController.swift */,
 			);
 			path = FishControl;
+			sourceTree = "<group>";
+		};
+		9855D8792538F2ED5B62203F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1CBF3F1C79BC23A8CADF726 /* libPods-FishControl.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +119,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8203A983249E394D00913686 /* Build configuration list for PBXNativeTarget "FishControl" */;
 			buildPhases = (
+				B9087B5504AF5D5AA055F1E6 /* [CP] Check Pods Manifest.lock */,
 				8203A96B249E390A00913686 /* Sources */,
 				8203A96C249E390A00913686 /* Frameworks */,
 				8203A96D249E390A00913686 /* Resources */,
@@ -125,13 +171,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8203A97F249E394C00913686 /* LaunchScreen.storyboard in Resources */,
+				82DF0BA424A0E9A8008D60D1 /* lakeTwo.jpg in Resources */,
+				82DF0BA624A0EB72008D60D1 /* fishControl.png in Resources */,
 				8203A97C249E394C00913686 /* Assets.xcassets in Resources */,
 				8203A97A249E390C00913686 /* Main.storyboard in Resources */,
+				82DF0BAC24A18B24008D60D1 /* redHouse.jpg in Resources */,
+				82DF0BA024A0E960008D60D1 /* yellowHouse.jpg in Resources */,
+				82DF0BA224A0E99F008D60D1 /* lakeOne.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9087B5504AF5D5AA055F1E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FishControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8203A96B249E390A00913686 /* Sources */ = {
@@ -139,8 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8203A977249E390B00913686 /* ViewController.swift in Sources */,
+				82DF0BAE24A193C4008D60D1 /* LakeViewController.swift in Sources */,
 				8203A973249E390B00913686 /* AppDelegate.swift in Sources */,
 				8203A975249E390B00913686 /* SceneDelegate.swift in Sources */,
+				82DF0BAA24A18AD0008D60D1 /* ExpensesViewController.swift in Sources */,
+				82DF0BA824A17F77008D60D1 /* ClientsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +231,6 @@
 				8203A979249E390C00913686 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8203A97D249E394C00913686 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8203A97E249E394C00913686 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,9 +352,12 @@
 		};
 		8203A984249E394D00913686 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8868855040ACF170617709E /* Pods-FishControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANAHW2C9Y9;
 				INFOPLIST_FILE = FishControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +365,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vanessafurtado.FishControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,9 +373,12 @@
 		};
 		8203A985249E394D00913686 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C46D1E8C663AD35692040BD /* Pods-FishControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ANAHW2C9Y9;
 				INFOPLIST_FILE = FishControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +386,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vanessafurtado.FishControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
